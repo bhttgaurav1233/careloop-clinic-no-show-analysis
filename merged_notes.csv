@@ -1,0 +1,36 @@
+note_id,appointment_id,root_cause,confidence,summary,recommended_action,validation_status,raw_response,patient_id,clinic_id,booked_on,appt_date,age,gender,distance_km,fee_inr,booking_channel,visit_type,reminder_sent,prior_no_shows,status,lead_days,no_show
+N001,A0872,forgot_or_no_reminder,0.98,The patient missed the appointment because she forgot about it after failing to receive a reminder message.,Rebook the appointment for next week and confirm the patient's contact details for SMS or email reminders.,valid,"{""root_cause"":""forgot_or_no_reminder"",""confidence"":0.98,""summary"":""The patient missed the appointment because she forgot about it after failing to receive a reminder message."",""recommended_action"":""Rebook the appointment for next week and confirm the patient's contact details for SMS or email reminders.""}",P144,C05,2025-04-25,2025-05-09,38,F,17.6,750.0,App,Consultation,No,1,No-Show,14,1
+N002,A0897,distance_or_transport,0.95,Patient missed appointment due to living far from clinic and lacking available transportation that morning.,Offer telehealth options or assist with coordinating transportation services for future visits.,valid,"{
+  ""root_cause"": ""distance_or_transport"",
+  ""confidence"": 0.95,
+  ""summary"": ""Patient missed appointment due to living far from clinic and lacking available transportation that morning."",
+  ""recommended_action"": ""Offer telehealth options or assist with coordinating transportation services for future visits.""
+}",P268,C07,2025-02-06,2025-02-11,26,M,17.2,1218.8,Phone,Follow-up,No,0,No-Show,5,1
+N003,A0526,cost_or_fee,0.95,Patient skipped the appointment due to high consultation fees and inquired about follow-up discounts.,"Provide information on available financial assistance, sliding scale fees, or follow-up discount options.",valid,"{""root_cause"":""cost_or_fee"",""confidence"":0.95,""summary"":""Patient skipped the appointment due to high consultation fees and inquired about follow-up discounts."",""recommended_action"":""Provide information on available financial assistance, sliding scale fees, or follow-up discount options.""}",P006,C04,2025-04-15,2025-05-19,22,F,5.3,800.0,App,Consultation,Yes,0,No-Show,34,1
+N004,A0926,other,0.0,No note recorded,Re-call patient,skipped_blank,,P449,C04,2025-01-14,2025-02-23,24,M,4.5,300.0,Phone,Follow-up,No,0,No-Show,40,1
+N005,A0534,illness_or_emergency,0.98,"Patient missed the appointment due to a high fever and body ache, staying in bed to recover.",Follow up with the patient in a few days to check on recovery and reschedule the appointment.,valid,"{
+  ""root_cause"": ""illness_or_emergency"",
+  ""confidence"": 0.98,
+  ""summary"": ""Patient missed the appointment due to a high fever and body ache, staying in bed to recover."",
+  ""recommended_action"": ""Follow up with the patient in a few days to check on recovery and reschedule the appointment.""
+}",P400,C04,2025-04-12,2025-05-08,35,F,4.2,550.0,App,Follow-up,Yes,0,No-Show,26,1
+N006,A0507,work_or_schedule,0.98,Patient missed appointment due to an urgent meeting called by their manager at work.,Reschedule appointment for an evening slot as requested by the patient.,valid,"{""root_cause"":""work_or_schedule"",""confidence"":0.98,""summary"":""Patient missed appointment due to an urgent meeting called by their manager at work."",""recommended_action"":""Reschedule appointment for an evening slot as requested by the patient.""}",P230,C04,2025-05-16,2025-06-13,38,F,0.8,700.0,App,Consultation,Yes,2,No-Show,28,1
+N007,A0333,forgot_or_no_reminder,0.95,Patient forgot the appointment because they did not receive an SMS reminder and wants to reschedule.,Reschedule the patient's appointment and verify their phone number to ensure SMS reminders are enabled.,valid,"{
+  ""root_cause"": ""forgot_or_no_reminder"",
+  ""confidence"": 0.95,
+  ""summary"": ""Patient forgot the appointment because they did not receive an SMS reminder and wants to reschedule."",
+  ""recommended_action"": ""Reschedule the patient's appointment and verify their phone number to ensure SMS reminders are enabled.""
+}",P472,C08,2025-02-09,2025-02-18,70,F,15.2,850.0,Walk-In,Consultation,No,2,No-Show,9,1
+N008,A0222,distance_or_transport,0.95,"Patient missed appointment due to a city bus strike, lack of auto transport, and distance issues.",Arrange medical transport support or reschedule the appointment to a date with reliable public transportation.,valid,"{
+  ""root_cause"": ""distance_or_transport"",
+  ""confidence"": 0.95,
+  ""summary"": ""Patient missed appointment due to a city bus strike, lack of auto transport, and distance issues."",
+  ""recommended_action"": ""Arrange medical transport support or reschedule the appointment to a date with reliable public transportation.""
+}",P125,C02,2025-05-18,2025-05-22,31,F,15.8,650.0,App,Follow-up,Yes,1,No-Show,4,1
+N009,A0977,other,0.7,Patient was unreachable via phone after three attempts because their device was powered off.,"Attempt contact via alternative channels like SMS or email, and verify contact details at next check-in.",valid,"{""root_cause"":""other"",""confidence"":0.7,""summary"":""Patient was unreachable via phone after three attempts because their device was powered off."",""recommended_action"":""Attempt contact via alternative channels like SMS or email, and verify contact details at next check-in.""}",P334,C01,2025-02-28,2025-03-04,21,M,3.6,800.0,App,Consultation,Yes,1,No-Show,4,1
+N010,A0596,work_or_schedule,0.95,Patient missed the appointment due to a factory shift change and inability to take leave. Prefers Saturdays.,Reschedule the patient's appointment to an available Saturday slot.,valid,"{
+  ""root_cause"": ""work_or_schedule"",
+  ""confidence"": 0.95,
+  ""summary"": ""Patient missed the appointment due to a factory shift change and inability to take leave. Prefers Saturdays."",
+  ""recommended_action"": ""Reschedule the patient's appointment to an available Saturday slot.""
+}",P297,C04,2025-03-17,2025-04-07,74,F,10.1,400.0,App,Follow-up,No,1,No-Show,21,1
